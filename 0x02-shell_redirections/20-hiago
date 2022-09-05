@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Chicago" | grep -v -e "c" -e "C"
+tr -d "cC"
